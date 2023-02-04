@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Weather</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Weather</h1>
+            <form method="#" class="search">
+                <input class="searchbar" type="text" placeholder="Search" required/>
+                <input type="submit" class="submit"/>
+            </form>
+            <label class="switch">
+                <input id="checkbox" type="checkbox" checked/>
+                <span class="slider round"></span>
+            </label>
+        </header>
+        <div class="loadscreen">
+            <div class="loader"></div>
+        </div>
+        <div class="content hidden">
+            <div class="weather">
+                <h1 id="city"></h1>
+                <h1 id="temp"></h1>
+                <h4 id="desc"></h4>
+                <h3 id="low"></h3>
+                <h3 id="high"></h3>
+                <h3 id="feels-like"></h3>
+                <h3 id="humidity"></h3>
+                <h3 id="wind"></h3>
+            </div>
+            <div class="forecast">
+                <div id="day1">
+                    <h1 class="date"></h1>
+                    <h1 class="temp"></h1>
+                    <p class="high"></p>
+                    <p class="low"></p>
+                </div>
+                <div id="day2">
+                    <h1 class="date"></h1>
+                    <h1 class="temp"></h1>
+                    <p class="high"></p>
+                    <p class="low"></p>
+                </div>
+                <div id="day3">
+                    <h1 class="date"></h1>
+                    <h1 class="temp"></h1>
+                    <p class="high"></p>
+                    <p class="low"></p>
+                </div>
+                <div id="day4">
+                    <h1 class="date"></h1>
+                    <h1 class="temp"></h1>
+                    <p class="high"></p>
+                    <p class="low"></p>
+                </div>
+                <div id="day5">
+                    <h1 class="date"></h1>
+                    <h1 class="temp"></h1>
+                    <p class="high"></p>
+                    <p class="low"></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
